@@ -1,0 +1,53 @@
+
+
+*{
+	box-sizing: border-box;
+	margin:0px;
+	font-family: 'Kanit', sans-serif;
+	color:white;
+}
+
+body{
+	/*font-family: 'Kanit', sans-serif;*/
+		background:url(catesphotored.png);
+		background-size: cover;
+}
+
+#generator-container{
+	margin:0px auto;
+	display:flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+#pageTitle{
+	margin:20px;
+}
+
+#generate{
+	margin:20px;
+	font-size:2em;
+	padding:10px;
+	color:white;
+	background:blue;
+	outline:none;
+}
+
+#generate:hover{
+	background: red;
+	color:black;
+	border-color: green;
+}
+
+#generate:active{
+	background: orange;
+
+}
+
+#pitch-here{
+	max-width:50%;
+}
+
