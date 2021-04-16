@@ -11,6 +11,7 @@ body{
 	/*font-family: 'Kanit', sans-serif;*/
 		background:url(catesphotored.png);
 		background-size: cover;
+		background-repeat:no-repeat;
 }
 
 #generator-container{
