@@ -31,7 +31,7 @@ body{
 
 #generate{
 	margin:20px;
-	font-size:2em;
+	font-size:1.5em;
 	padding:10px;
 	color:white;
 	background:rgba(0,0,0,0.5);
@@ -88,11 +88,12 @@ body{
 
 #pageTitle{
 	margin:20px;
+	font-size:1em;
 }
 
 #generate{
-	margin:20px;
-	font-size:2em;
+	margin-top:50%;
+	font-size:1.5em;
 	padding:10px;
 	color:white;
 	background:rgba(0,0,0,0.5);
@@ -112,6 +113,8 @@ body{
 
 	max-width:50%;
 	text-align: center;
+	font-size:1em;
+	margin-top:15%;
 }
 
 

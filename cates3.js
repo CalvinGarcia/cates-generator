@@ -1,30 +1,35 @@
-var heroes = [ 
-'Doctor Strange ',
-'Moon Knight ', 
-'Thanos ',
-'Silver Surfer ',
-'Venom ',
-'Cosmic Ghost Rider ',
-'Star Lord ',
-'Thor ',
-'Loki ' 
+var heroes ;
+var objectA;
+var objectB;
+var outcomes;
+
+heroes = [ 'Doctor Strange ' ,
+'Moon Knight ' , 
+'Thanos ' ,
+'Silver Surfer ' ,
+'Venom ' ,
+'Cosmic Ghost Rider ' ,
+'Star Lord' ,
+'Thor ' ,	
+'Loki ' , 
+'Beta Ray Bill '
 ];
-var objectA = [ 
+
+objectA = [ 
 'the Ultimate Nullifier ',
 'The Nega Bands ',
 'Mjolnir ',
-
 'All Black the Necro Sword ', 
 'Jarnbjorn ',
 'Mjolnir ',
 'the Crimson Gem of Cyttorak ',  
 'the Mandarin\'s Rings ',
 'The Eye of Agamotto ',
+'Captain America\'s Shield ', 
 
  ]; 
 
-var objectB = [
-
+objectB = [
 'the Pheonix force ',
 'the M’Kraan Crystal ',
 'The Watcher’s Eye ',
@@ -33,7 +38,8 @@ var objectB = [
 'the Destroyer Armor ',
 'the Tactigon ',
 'the Infinity Guantlet ',
-'the Odin Sword '
+'the Odin Sword ',
+'Wolverine\'s anus ',
 ];
 
 outcomes = [
@@ -45,7 +51,8 @@ outcomes = [
 'become the leader of the Avengers. ', 
 'pursue his dream of becoming a photographer for the Daily Bugle. ',
 'destroy the universe ', 
-'and become a veterinarian '
+'and become a veterinarian ',
+'and kill the x-men ',
 ];
 
 
