@@ -9,7 +9,7 @@ heroes = [ 'Doctor Strange ' ,
 'Silver Surfer ' ,
 'Venom ' ,
 'Cosmic Ghost Rider ' ,
-'Star Lord' ,
+'Star Lord ' ,
 'Thor ' ,	
 'Loki ' , 
 'Beta Ray Bill '
@@ -47,7 +47,7 @@ outcomes = [
 'pursue his dream of becoming a photographer for the Daily Bugle. ',
 'become the leader of the Avengers. ', 
 'to defeat the Avengers. ',
-'to defeat the Avengers. ',
+'to kill Thanos. ',
 'become the leader of the Avengers. ', 
 'pursue his dream of becoming a photographer for the Daily Bugle. ',
 'destroy the universe ', 
@@ -103,10 +103,10 @@ function randomNumber(){
 	appendNumber.textContent = i ;
 }
 
- var numberButton = document.getElementById('rng'); 
+//  var numberButton = document.getElementById('rng'); 
 
 
-numberButton.addEventListener('click',randomNumber, false);
+// numberButton.addEventListener('click',randomNumber, false);
 
 
 
