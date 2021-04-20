@@ -39,7 +39,7 @@ objectB = [
 'the Tactigon ',
 'the Infinity Guantlet ',
 'the Odin Sword ',
-'Wolverine\'s anus ',
+'the Power Cosmic ',
 ];
 
 outcomes = [
@@ -48,11 +48,11 @@ outcomes = [
 'become the leader of the Avengers. ', 
 'to defeat the Avengers. ',
 'to kill Thanos. ',
-'become the leader of the Avengers. ', 
-'pursue his dream of becoming a photographer for the Daily Bugle. ',
+'ressurect the Universal Church of Truth. ', 
+'become a herald of Galactus ',
 'destroy the universe ', 
 'and become a veterinarian ',
-'and kill the x-men ',
+'and kill the X-Men ',
 ];
 
 
@@ -74,9 +74,11 @@ function changeText(){
 
 	var pitch = document.getElementById('pitch-here');
 	let i = Math.floor((Math.random() * 10));
-	let x = Math.ceil((Math.random() * 10));
+	let x = Math.floor((Math.random() * 10));
+	let y = Math.floor((Math.random() * 10));
+	let z = Math.floor((Math.random() * 10));
 
-var premise = heroes[i] + 'uses ' + objectA[i] + 'to obtain ' + objectB[i] + 'and ' + outcomes[i]; ;
+var premise = heroes[i] + 'uses ' + objectA[x] + 'to obtain ' + objectB[y] + 'and ' + outcomes[z]; ;
 
 var test = document.getElementById('pitch-here');
 
